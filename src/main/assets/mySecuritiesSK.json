@@ -1,0 +1,601 @@
+{
+  "id" : "b2397f812004c0f4be4b7678198add243914dcf0aa091f7518c4d9a903aaf603",
+  "alias" : "Investments SK",
+  "description" : "Kocka, Ing. Igor",
+  "balance" : {
+    "value" : 6195064,
+    "precision" : 2,
+    "currency" : "EUR"
+  },
+  "investedAmount" : {
+    "value" : 6090544,
+    "precision" : 2,
+    "currency" : "EUR"
+  },
+  "settlementAccount" : {
+    "iban" : "SK0309000000005050246749",
+    "bic" : "GIBASKB0",
+    "number" : "5050246749",
+    "bankCode" : "0900",
+    "countryCode" : "SK"
+  },
+  "subSecAccounts" : [ {
+    "id" : "00",
+    "name" : "Kocka, Ing. Igor",
+    "titles" : [ {
+      "title" : "ERSTE GROUP BANK AG",
+      "isin" : "AT0000652011",
+      "numberOfShares" : 17.0,
+      "lastPrice" : {
+        "value" : 2828,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 48076,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 2600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 44200,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 44200,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performance" : {
+        "value" : 3876,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 100,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performancePercent" : 8.77,
+      "securityType" : "SHARE",
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "AT0000652011|EUR|1020|88024|1072|0",
+        "amount" : {
+          "value" : 48076,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 17.0,
+        "lastPrice" : {
+          "value" : 2828,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 48076,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 48076,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "XETRA Viedeň",
+        "features" : [ "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "VAR ERSTE GRP BANK SUB 26 EUR",
+      "isin" : "AT0000A1HUU9",
+      "numberOfShares" : 32.0,
+      "lastPrice" : {
+        "value" : 107081739,
+        "precision" : 5,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 3426616,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 99000,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 3168000,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 3168000,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "maturity" : "2026-01-27",
+      "performance" : {
+        "value" : 258616,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 100000,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performancePercent" : 8.16,
+      "securityType" : "BOND",
+      "coupon" : {
+        "ratePercent" : 0.0,
+        "periodicity" : "YEARLY",
+        "nextPaymentDate" : "2022-01-27"
+      },
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "AT0000A1HUU9|EUR|1020|88024|1072|0",
+        "amount" : {
+          "value" : 3426616,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 32.0,
+        "lastPrice" : {
+          "value" : 107081739,
+          "precision" : 5,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 3426616,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 3426616,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "XETRA Viedeň",
+        "features" : [ "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "WARRANT CEME CALL 02-05-2018 USD",
+      "isin" : "BMG200451455",
+      "numberOfShares" : 24.0,
+      "lastPrice" : {
+        "value" : 10,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2020-05-12T00:00:00+02:00",
+      "marketValue" : {
+        "value" : 240,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 1400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 33600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 33600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performance" : {
+        "value" : -33360,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 100,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "performancePercent" : -99.29,
+      "securityType" : "WARRANT",
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "BMG200451455|EUR|1025|88024|1077|0",
+        "amount" : {
+          "value" : 240,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 24.0,
+        "lastPrice" : {
+          "value" : 10,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2020-05-12T00:00:00+02:00",
+        "marketValue" : {
+          "value" : 240,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 240,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "Frankfurt",
+        "features" : [ "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "RAIF BONUS CER FRN SX5E 09/07/14",
+      "isin" : "AT0000A0PQF3",
+      "numberOfShares" : 27.0,
+      "lastPrice" : {
+        "value" : 0,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-10-25T14:07:07+02:00",
+      "marketValue" : {
+        "value" : 0,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 1800,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 48600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 48600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "maturity" : "2025-07-09",
+      "performance" : {
+        "value" : -48600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 100000,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performancePercent" : -100.0,
+      "securityType" : "CERTIFICATE",
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "AT0000A0PQF3|EUR|1029|88024|1081|0",
+        "amount" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 27.0,
+        "lastPrice" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-10-25T14:07:07+02:00",
+        "marketValue" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 0,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "Stuttgart",
+        "features" : [ "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "SPORO EUROVY DLHOPISOVY FOND",
+      "isin" : "SK3110000328",
+      "numberOfShares" : 21.0,
+      "lastPrice" : {
+        "value" : 54158,
+        "precision" : 6,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 114,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 2400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 50400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 50400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performance" : {
+        "value" : -50286,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 33194,
+        "precision" : 6,
+        "currency" : "EUR"
+      },
+      "performancePercent" : -99.77,
+      "securityType" : "FUND",
+      "features" : [ "recurrentBuy", "buy", "sell" ],
+      "positions" : [ {
+        "id" : "SK3110000328|EUR|1053|88022|1129|0",
+        "amount" : {
+          "value" : 114,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 21.0,
+        "lastPrice" : {
+          "value" : 54158,
+          "precision" : 6,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 114,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 114,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "AM SLSP",
+        "features" : [ "recurrentBuy", "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "SPORO AKTIVNE PORTFOLIO",
+      "isin" : "SK3110000336",
+      "numberOfShares" : 24.0,
+      "lastPrice" : {
+        "value" : 46317,
+        "precision" : 6,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 111,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 1100,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 26400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 26400,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performance" : {
+        "value" : -26289,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 33194,
+        "precision" : 6,
+        "currency" : "EUR"
+      },
+      "performancePercent" : -99.58,
+      "securityType" : "FUND",
+      "features" : [ "recurrentBuy", "buy" ],
+      "positions" : [ {
+        "id" : "SK3110000336|EUR|1053|88022|1129|0",
+        "amount" : {
+          "value" : 111,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 24.0,
+        "lastPrice" : {
+          "value" : 46317,
+          "precision" : 6,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 111,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 111,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "AM SLSP",
+        "features" : [ "recurrentBuy", "buy" ]
+      } ]
+    }, {
+      "title" : "C-QUADRAT ASIAN BND FND EUR 3PL",
+      "isin" : "LI0193826190",
+      "numberOfShares" : 18.0,
+      "lastPrice" : {
+        "value" : 1,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 18,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 3200,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchaseValue" : {
+        "value" : 57600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "investedValue" : {
+        "value" : 57600,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performance" : {
+        "value" : -57582,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "nominalPrice" : {
+        "value" : 100,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "performancePercent" : -99.97,
+      "securityType" : "SHARE",
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "LI0193826190|EUR|1055|88024|1133|0",
+        "amount" : {
+          "value" : 18,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "numberOfShares" : 18.0,
+        "lastPrice" : {
+          "value" : 1,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 18,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 18,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "stockExchange" : "PL 3. strany",
+        "features" : [ "buy", "sell" ]
+      } ]
+    }, {
+      "title" : "CITIGROUP USD PERPETUAL",
+      "isin" : "US172967HQ76",
+      "numberOfShares" : 28.0,
+      "lastPrice" : {
+        "value" : 105250,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+      "marketValue" : {
+        "value" : 2719889,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "avgPurchasePrice" : {
+        "value" : 103000,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "avgPurchaseValue" : {
+        "value" : 2884000,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "investedValue" : {
+        "value" : 2661744,
+        "precision" : 2,
+        "currency" : "EUR"
+      },
+      "maturity" : "2049-11-15",
+      "performance" : {
+        "value" : 63000,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "nominalPrice" : {
+        "value" : 100000,
+        "precision" : 2,
+        "currency" : "USD"
+      },
+      "performancePercent" : 2.18,
+      "securityType" : "BOND",
+      "coupon" : {
+        "ratePercent" : 6.3,
+        "periodicity" : "QUARTERLY",
+        "nextPaymentDate" : "2021-11-15"
+      },
+      "features" : [ "buy", "sell" ],
+      "positions" : [ {
+        "id" : "US172967HQ76|USD|1057|88024|1145|0",
+        "amount" : {
+          "value" : 2947000,
+          "precision" : 2,
+          "currency" : "USD"
+        },
+        "numberOfShares" : 28.0,
+        "lastPrice" : {
+          "value" : 105250,
+          "precision" : 2,
+          "currency" : "USD"
+        },
+        "lastPriceDate" : "2021-03-10T00:00:00+01:00",
+        "marketValue" : {
+          "value" : 2719889,
+          "precision" : 2,
+          "currency" : "EUR"
+        },
+        "marketValueInOriginalCurrency" : {
+          "value" : 2947000,
+          "precision" : 2,
+          "currency" : "USD"
+        },
+        "stockExchange" : "Xetra Bond Viedeň",
+        "features" : [ "buy", "sell" ]
+      } ]
+    } ]
+  } ],
+  "accountno" : "191068"
+}

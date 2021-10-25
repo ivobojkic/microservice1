@@ -1,0 +1,4 @@
+{
+  "AT_FAT" : "https://rproxy.beeone.at/https://api.fat.sparkasse.at/fat1/rest/netbanking/my/securities/",
+  "SK_FAT": "https://rproxy.beeone.at/https://sk.dev.beeone.at/webapi/api/v1/netbanking/my/securities/"
+}
