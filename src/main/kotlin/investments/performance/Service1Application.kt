@@ -1,4 +1,4 @@
-package msInvestments.service1
+package investments.performance
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
