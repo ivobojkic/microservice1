@@ -103,14 +103,16 @@ private fun getSubSecAccountsJson(jsonObjSecurities: JSONObject): JSONArray {
 
 private fun getSubSecAccountList(subSecAccountsJson: JSONArray, performanceObj: String): List<SubSecAccount> {
     val subSecAccountList = arrayListOf<SubSecAccount>()
-    for (a in 0 until subSecAccountsJson.length()) {
+
+    (0 until subSecAccountsJson.length()).forEach {
         val subSecAccount = SubSecAccount(
-            subSecAccountsJson.getJSONObject(a).getString("id"),
-            subSecAccountsJson.getJSONObject(a).getString("name"),
-            getTitlesList(subSecAccountsJson.getJSONObject(a), performanceObj)
+            subSecAccountsJson.getJSONObject(it).getString("id"),
+            subSecAccountsJson.getJSONObject(it).getString("name"),
+            getTitlesList(subSecAccountsJson.getJSONObject(it), performanceObj)
         )
         subSecAccountList.add(subSecAccount)
     }
+
     return subSecAccountList
 }
 
@@ -118,12 +120,12 @@ private fun getTitlesList(subSecAccountsJson: JSONObject, performanceObj: String
     val titleList = arrayListOf<Title>()
     val titles = subSecAccountsJson.getJSONArray("titles")
 
-    for (b in 0 until titles!!.length()) {
-        val isin = titles.getJSONObject(b).getString("isin")
+    (0 until titles.length()).forEach {
+        val isin = titles.getJSONObject(it).getString("isin")
         var performanceAmount = Amount(BigInteger.ZERO, 0, "")
 
-        if (!titles.getJSONObject(b).isNull(performanceObj)) {
-            val performanceJsonObject: JSONObject = titles.getJSONObject(b).getJSONObject(performanceObj)
+        if (!titles.getJSONObject(it).isNull(performanceObj)) {
+            val performanceJsonObject: JSONObject = titles.getJSONObject(it).getJSONObject(performanceObj)
 
             performanceAmount = Amount(
                 performanceJsonObject.getString("value").toBigInteger(),
